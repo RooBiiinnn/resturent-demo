@@ -1,0 +1,248 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar img {
+    width: 100px;
+    height: auto;
+    color: white;
+    
+}
+
+#navbar {
+    background-color: #504c39;
+    text-align: center;
+}
+
+.nav-text {
+
+    font-family: 'Corinthia', cursive;
+}
+
+.nav-menu > a {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.nav-menu > a:hover {
+    background-color: rgb(9, 129, 49);
+    color: black;
+}
+
+
+/* navbar ends */
+
+/* main banner start */
+
+#mainbody {
+    background-image: url("images/bg.jpg");
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#mainbody-container {
+    padding: 100px 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#mainbody-container > h2 {
+     margin: 50px auto;
+    font-size: 2rem;
+    background-color: rgb(187, 138, 103, 0.8);
+    width: 400px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#mainbody-container > p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 0 0 25px 0;
+}
+
+
+#btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(95, 41, 32);
+    color: white;
+}
+
+/* main banner ends */
+
+#about-us {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 30px;
+}
+
+#about-us > h2 {
+     font-weight: bolder;
+     padding: 30px;
+}
+
+/* Hot items start */
+
+#hot-items-container {
+    text-align: center;
+}
+
+#hot-items-container h2 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+}
+
+.card1 {
+    cursor: pointer;
+    height: 550px;
+    background-color: gray;
+    margin: 50px auto auto auto;
+    transition: all 0.4s;
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+}
+
+#desc-title {
+    font-size: 1.8rem;
+    background-color: chocolate;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+#desc {
+  font-size: 1.2rem;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.card2 {
+    transition: all 0.4s;
+    height: 650px;
+    background-color: gray;
+    margin: 50px auto auto auto;
+    cursor: pointer;
+}
+
+.card2 img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card1:hover {
+    transform: scale(1.2);
+    margin: 70px auto 70px auto;
+}
+
+.card2:hover {
+    transform: scale(1.2);
+    margin: 70px auto 70px auto;
+}
+
+/* Items ends */
+
+/* Address start */
+
+.map {
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.map .main-map {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+
+.address {
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.address h3 {
+    font-size: 1.5rem;
+}
+
+.address p {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+/* Footer start */
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+#copy-text {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 20px 0 0 0;
+}
+
+#social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#social a {
+    text-decoration: none;
+    margin: 0 7px;
+     /* border: 0.5px solid white; */
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.4s;
+}
+
+#social a:hover {
+    background-color: tomato;
+}

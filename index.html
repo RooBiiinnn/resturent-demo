@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturent Web</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACNDYABgt/8AUqb/AEia/wBImv8ARpf/AEaX/wBGl/8ARpf/AEaX/wBDlP8AQ5T/AEOU/wAYNmAAAAAAACNDYABuyv8AkfX/E6f+/xOn/v8Rpf7/AJj9/wCE5f8AfNv/AHzb/wB82/8AZL3/AGC5/wBguf8AUqf/ABg2YABgt/8AhOX/AJj9/za8/v8jtP7/IbL+/wCY/f8AmP3/AHzb/wBx1/8AaNP/AGPO/wBguf8AYLn/AGC5/wBDlP8AXbP/AGjB/wBxzP8Accz/AHHM/wBxzP8Accz/AGfC/wBg0P9wneH/ILft/wCD5f8AVsT/AEue/wBLnv8AQJD/AF2z/wZu6v8Gbur/BTms/wUVgf8FGYX/BGfh/wBq1/8Vvff/UfD//zHt//8AtP//AIPl/wNa0f8GaeT/AECQ/wAMECACNJr/Bgh8/wMR0P8BFfj/AAmg/wCQJP8CXEL/Bgh6/wYIev8GCHz/Bgh6/wYIev8GDHX/Bgx1/wEBCxgArxj/AKUm/wE3x/8BN8f/AJgn/wCfPP8AtHf/AKZi/wBZVP8BMMn/ATDJ/wAfi/8AUF3/AJUz/wCVM/8ALQtQALMj/x7Yhv8Av0j/AL9I/wDLhv8AxoP/JOWs/wDWjf8At27/AJpC/wCaQv8AmkL/AKRd/wCrcf8Aq3H/AJIp/wBNF38AfY//AH2P/wB9j/8Aa4P/AGuD/wB9j/8AfY//AH2P/wBrg/8Aa4P/AGuD/wBrg/8Aa4P/AGuD/wBAG38AT5nfAG/L/wBvy/8Ab8v/AG/L/wBvy/8Ab8v/AG/L/wBvy/8Ab8v/AG/L/wBZsP8AWbD/AFmw/wBZsP8AOH7fAGC3/wCD5P8Al/z/AJf8/wCX/P8Al/z/AJf8/wCX/P8Al/z/AIHh/wB82/8Ae9r/AHLO/wBguf8AYLn/AEOU/wBjuv8Tp/7/Lbz+/wqg/f8KoP3/AJj9/wSb/f84xP//EaX+/wCY/f8AmP3/AHzb/wByz/8AYLn/AGC5/wBDlP8ARoa/AJT4/yu6/v9i2f//Qsz//xeq/v8In/3/AJj9/wCY/f8AmP3/AI/y/wB82/8Acs//AGC5/wBetv8AMGy/AAAAAABGhr8Aedb/CH/W/x+w/v8fsP7/EaX+/wCY/f8Alfn/AInr/wB82/8Abcn/AFOn/wBPo/8AMGy/AAAAAAAAAAAAAAAAABoySAAaMkgAZLz/AG7I/wBuyP8Absj/AF2z/wBRpf8AUaX/AESV/wASKUgAEilIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJERgACREYAAkRGAAGDhgABg4YAAYOGAAAAAAAAAAAAAAAAAAAAAAAAAAAwAMAAIABAAAAAAAAAAAAAAAAAACAAQAAAAEAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAIABAADwDwAA//8AAA==" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
+</head>
+<body>
+ <header>
+   <div id="navbar">
+      <img src="images/logo.png" alt="logo" class="logo col-3">
+       
+      <div class="nav-text col-4">
+        <h1>The Mitiors House</h1>
+      </div>
+
+        <!-- Navbar -->
+        <div class="nav-menu col-4">
+        <a href="#">Home</a>
+        <a href="#hot-items-container">Items</a>
+        <a href="#">Offer</a>
+        <a href="#address-container">Contact</a>
+   </div>
+   </div>
+ </header>
+
+ <main>
+   <!-- main banner start -->
+    <div id="mainbody">
+       <div id="mainbody-container">
+       <h2>The ultimate place for <br> food and luxury</h2>
+       <p>20% off on Dine-in and Take-away. Grab your hapiness now</p>
+      <button id="btn">Order Now</button>
+    </div>
+    </div>
+
+
+ <!-- main banner ends -->
+
+ <div id="about-us"> 
+    <h2>About us</h2>
+<p>A restaurant, or, more informally, an eatery, is a business that prepares and serves food and drinks to customers.[1] Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast food restaurants and cafeterias, to mid-priced family restaurants, to high-priced luxury establishments. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast food restaurants and cafeterias, to mid-priced family restaurants, to high-priced luxury establishments.</p>
+</div>
+
+<!-- Hot items start -->
+
+
+<div id="hot-items-container">
+<h2>Some of our hot items</h2>
+<div id="hot-items">
+   <div class="card1 col-2">
+     <img src="images/platter.jpg" alt="platter1">
+     <p id="desc-title">Hot saussage platter</p>
+     <p id="desc">
+     Item code: 201 <br>
+     Rating: 4.5/5 <br>
+     Price: BDT 250
+     </p>
+   </div>
+
+   
+
+  <div class="card1 col-2">
+    <img src="images/platter2.jpg" alt="platter1">
+    <p id="desc-title">Saussage Burger</p>
+    <p id="desc">
+    Item code: 210 <br>
+    Rating: 4.5/5 <br>
+    Price: BDT 170
+    </p>
+  </div>
+
+
+  <div class="card1 col-2">
+    <img src="images/platter1.jpg" alt="platter1">
+    <p id="desc-title">Crispy Fried Chicken</p>
+    <p id="desc">
+    Item code: 208 <br>
+    Rating: 4.5/5 <br>
+    Price: BDT 130
+    </p>
+  </div>
+
+
+
+  <div class="card2 col-2">
+    <img src="images/platter3.jpg" alt="platter1">
+    <p id="desc-title">Sand Platter</p>
+    <p id="desc">
+    Item code: 220 <br>
+    Rating: 4.5/5 <br>
+    Price: BDT 350
+    </p>
+  </div>
+</div>
+</div>
+<!-- Items ends -->
+
+<!-- Address start -->
+<div id="address-container">
+<div class="map col-6">
+  <iframe class="main-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.288658888713!2d91.41056361446785!3d24.371259770692507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375144f99f8b0e6b%3A0x58f57d272d18ef3f!2sBFC-Brothers%20Fried%20Chicken!5e0!3m2!1sen!2sbd!4v1638788850690!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<div class="address col-4">
+  <h3>The Mitiors House</h3>
+  <p>Monday to Friday<br>
+   9.00 A.M. to 10.00 P.M.
+  </p> <br>
+  <h4><u>Address</u></h4>
+  <address>
+    123 Street, Dutch Harvour, Menila <br>
+    Washington DC, US <br>
+    +88017454545454
+  </address>
+</div>
+</div>
+</main>
+
+
+<!-- Footer -->
+
+<footer>
+
+
+<div id="footer">
+  <div id="copy-text">
+    &copy;All Right Reserved by "The Mitiors House"
+  </div>
+
+  <div id="social">
+   <a href="facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+   <a href="facebook.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></i></a>
+   <a href="facebook.com"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+   <a href="https://facebook.com"><i class="fa fa-phone" aria-hidden="true"></i></i></a>
+  
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
